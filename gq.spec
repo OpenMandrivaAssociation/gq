@@ -61,7 +61,6 @@ Icon=%{name}
 Terminal=false
 Type=Application
 Categories=GTK;Database;X-MandrivaLinux-MoreApplications-Databases;
-Encoding=UTF-8
 EOF
 
 #(peroyvind): replace menu with our own as it's more complete and valid ;)
