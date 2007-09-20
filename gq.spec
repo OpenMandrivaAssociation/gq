@@ -1,6 +1,6 @@
 %define name	gq
 %define version 1.2.2
-%define release %mkrel 1
+%define release %mkrel 2
 %define	Summary	GQ is a GTK-based LDAP client
 
 Name:		%{name}
@@ -13,6 +13,7 @@ Source11:	gq16.png
 Source12:	gq32.png
 Source13:	gq48.png
 Patch:		gq-1.0.1-saslfix.patch
+Patch1:         gq-1.2.2-passwordfix.patch
 URL:		http://biot.com/gq/
 Group:		Databases
 BuildRequires:	gettext-devel
@@ -35,6 +36,7 @@ tree view.
 %prep 
 %setup -q
 %patch -p1 -b .saslfix
+%patch1 -p1 -b .passwordfix
 
 %build 
 export CFLAGS="%{optflags} -DLDAP_DEPRECATED"
