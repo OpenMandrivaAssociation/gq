@@ -26,6 +26,7 @@ BuildRequires:	gtk+2-devel
 BuildRequires:	intltool
 BuildRequires:	gnome-keyring-devel
 BuildRequires:	libglade2.0-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 GQ is GTK+ LDAP client and browser utility. It can be used
