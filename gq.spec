@@ -1,6 +1,6 @@
 %define name	gq
 %define version 1.2.3
-%define release %mkrel 1
+%define release %mkrel 3
 %define	Summary	GQ is a GTK-based LDAP client
 
 Name:		%{name}
