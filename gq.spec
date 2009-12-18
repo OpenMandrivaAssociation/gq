@@ -12,7 +12,8 @@ Source0:	http://prdownloads.sourceforge.net/gqclient/%{name}-%{version}.tar.gz
 Source11:	gq16.png
 Source12:	gq32.png
 Source13:	gq48.png
-Patch:		gq-1.0.1-saslfix.patch
+Patch0:		gq-1.0.1-saslfix.patch
+Patch1:		gq-1.2.3-mdv-fix-str-fmt.patch
 URL:		http://biot.com/gq/
 Group:		Databases
 BuildRequires:	gettext-devel
@@ -34,7 +35,8 @@ tree view.
 
 %prep 
 %setup -q
-%patch -p1 -b .saslfix
+%patch0 -p1 -b .saslfix
+%patch1 -p1 -b .strfmt
 
 %build 
 export CFLAGS="%{optflags} -DLDAP_DEPRECATED"
