@@ -25,6 +25,7 @@ BuildRequires:  libxml2-devel
 BuildRequires:	glib-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	intltool
+BuildRequires:	gnome-doc-utils >= 0.3.2
 BuildRequires:	libgnome-keyring-devel
 BuildRequires:	libglade2.0-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
