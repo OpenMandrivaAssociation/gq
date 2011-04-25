@@ -1,6 +1,6 @@
 %define name	gq
 %define version 1.3.4
-%define release %mkrel 3
+%define release %mkrel 4
 %define	Summary	GQ is a GTK-based LDAP client
 
 Name:		%{name}
@@ -22,7 +22,7 @@ BuildRequires:	krb5-devel
 BuildRequires:	libsasl-devel
 BuildRequires:	openldap-devel
 BuildRequires:  libxml2-devel
-BuildRequires:	glib-devel
+#BuildRequires:	glib-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	intltool
 BuildRequires:	gnome-doc-utils >= 0.3.2
