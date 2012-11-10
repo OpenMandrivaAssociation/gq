@@ -1,0 +1,11 @@
+--- gq-1.3.4/src/gq-browser-node-dn.c.strfmt	2008-01-09 17:35:12.000000000 +0100
++++ gq-1.3.4/src/gq-browser-node-dn.c	2010-01-27 02:31:26.000000000 +0100
+@@ -565,7 +565,7 @@
+ 	       }
+ 	  }
+ 
+-	  statusbar_msg(message);
++	  statusbar_msg("%s", message);
+ 
+ #ifndef USE_TREE_VIEW
+ 	  gtk_clist_thaw(GTK_CLIST(ctree));
