@@ -15,7 +15,7 @@ Source13:	gq48.png
 Patch1:		gq-1.3.4-mdv-fix-str-fmt.patch
 Patch2:		gq-1.3.4-kerberos.patch
 Patch3:		gq-1.3.4-configure.patch
-URL:		http://biot.com/gq/
+URL:		https://biot.com/gq/
 Group:		Databases
 BuildRequires:	gettext-devel
 BuildRequires:	krb5-devel
