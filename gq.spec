@@ -17,6 +17,11 @@ Patch2:		gq-1.3.4-kerberos.patch
 Patch3:		gq-1.3.4-configure.patch
 URL:		https://biot.com/gq/
 Group:		Databases
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gettext-devel
 BuildRequires:	krb5-devel
 BuildRequires:	libsasl-devel
